@@ -23,8 +23,6 @@ Although there is a good base integration [recipe](https://ui.shadcn.com/docs/co
 - [ ] Bulk update
 - [ ] Active/inactive rows styles
 
-````
-
 ## Development 🧑🏻‍💻
 
 ### Run storybook 📚
@@ -35,7 +33,7 @@ npm run storybook
 yarn run storybook
 # or
 pnpm storybook
-````
+```
 
 ### Run tests 🧪
 
