@@ -1,13 +1,13 @@
 {
-  "name": "moon-package-starter",
+  "name": "shadcn-table-pro",
   "version": "0.1.0",
-  "description": "Starter boilerplate for developing React packages.",
+  "description": "Recipe and starter boilerplate for advanced React tables",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AliTaee/moon-package-starter.git"
+    "url": "git+https://github.com/AliTaee/shadcn-table-pro.git"
   },
   "scripts": {
     "size": "size-limit",
