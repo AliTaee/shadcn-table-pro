@@ -29,8 +29,13 @@
   "license": "free",
   "peerDependencies": {
     "@tanstack/react-table": "^8.20.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.453.0",
     "react": ">=16",
-    "react-dom": ">=16"
+    "react-dom": ">=16",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   },
   "files": [
     "dist",
@@ -86,6 +91,7 @@
     "rollup-plugin-visualizer": "^5.12.0",
     "size-limit": "^11.0.2",
     "storybook": "^7.6.14",
+    "tailwindcss": "^3.4.14",
     "typescript": "^5.3.3"
   },
   "resolutions": {
@@ -102,5 +108,13 @@
       "npx eslint --fix",
       "npx prettier --write"
     ]
+  },
+  "dependencies": {
+    "@tanstack/react-table": "^8.20.5",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.453.0",
+    "tailwind-merge": "^2.5.4",
+    "tailwindcss-animate": "^1.0.7"
   }
 }
