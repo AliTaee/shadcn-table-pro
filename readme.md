@@ -14,6 +14,17 @@ Although there is a good base integration [recipe](https://ui.shadcn.com/docs/co
 
 ````
 
+## Feature Backlog (prioritized list of enhancements to implement)
+
+[] Pagination
+[] Column Visibility
+[] Drag and Drop columns
+[] Sort
+[] Filter
+[] Select columns
+[] Bulk update
+[] Active/inactive rows styles
+
 ## Development 🧑🏻‍💻
 
 ### Run storybook 📚
