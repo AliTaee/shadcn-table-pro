@@ -12,18 +12,18 @@ I agree with the shadcn author, and I quote them:
 
 Although there is a good base integration [recipe](https://ui.shadcn.com/docs/components/data-table) for Shadcn and TanStack Table, I prefer to build a more feature-rich solution. This approach allows you to use it as a foundation for your project, customize it, and adapt it based on your design needs.
 
-````
-
 ## Feature Backlog (prioritized list of enhancements to implement)
 
-[] Pagination
-[] Column Visibility
-[] Drag and Drop columns
-[] Sort
-[] Filter
-[] Select columns
-[] Bulk update
-[] Active/inactive rows styles
+- [] Pagination
+- [] Column Visibility
+- [] Drag and Drop columns
+- [] Sort
+- [] Filter
+- [] Select columns
+- [] Bulk update
+- [] Active/inactive rows styles
+
+````
 
 ## Development 🧑🏻‍💻
 
