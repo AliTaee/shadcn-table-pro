@@ -28,6 +28,7 @@
   "author": "Ali Taei",
   "license": "free",
   "peerDependencies": {
+    "@tanstack/react-table": "^8.20.5",
     "react": ">=16",
     "react-dom": ">=16"
   },

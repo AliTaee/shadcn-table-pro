@@ -1,6 +1,6 @@
 # Shadcn Table Pro
 
-"Recipe and starter boilerplate for advanced React tables.
+Recipe and starter boilerplate for advanced React tables.
 
 ````
 
@@ -71,6 +71,7 @@ pnpm build
 ## Tools and Setup in this project: 🧰
 
 - [React](https://react.dev/)
+- [tanstack.com/table/](https://tanstack.com/table/): Supercharge your tables or build a datagrid from scratch for TS/JS, React, Vue, Solid, Svelte & Lit while retaining 100% control over markup and styles.
 - [Rollup](https://rollupjs.org/): The JavaScript module bundler
 - [Prettier](https://prettier.io/): Code formatter
 - [Eslint](https://eslint.org/): Code Linter
