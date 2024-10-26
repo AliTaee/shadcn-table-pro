@@ -2,6 +2,16 @@
 
 Recipe and starter boilerplate for advanced React tables.
 
+I agree with the shadcn author, and I quote them:
+
+> Every data table or datagrid I've created has been unique. They all behave differently, have specific sorting and filtering requirements, and work with different data sources.
+
+> It doesn't make sense to combine all of these variations into a single component. If we do that, we'll lose the flexibility that headless UI provides.
+
+> So instead of a data-table component, I thought it would be more helpful to provide a guide on how to build your own.
+
+Although there is a good base integration [recipe](https://ui.shadcn.com/docs/components/data-table) for Shadcn and TanStack Table, I prefer to build a more feature-rich solution. This approach allows you to use it as a foundation for your project, customize it, and adapt it based on your design needs.
+
 ````
 
 ## Development 🧑🏻‍💻
