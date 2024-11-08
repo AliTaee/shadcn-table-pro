@@ -1,22 +1,25 @@
+import alias from '@rollup/plugin-alias'
 import commonjs from '@rollup/plugin-commonjs'
+import json from '@rollup/plugin-json'
 import { nodeResolve } from '@rollup/plugin-node-resolve'
 import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
+import svgr from '@svgr/rollup'
+import path from 'path'
 import del from 'rollup-plugin-delete'
 import { dts } from 'rollup-plugin-dts'
 import peerDepsExternal from 'rollup-plugin-peer-deps-external'
 import postcss from 'rollup-plugin-postcss'
 import { visualizer } from 'rollup-plugin-visualizer'
+import { fileURLToPath } from 'url'
+
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = path.dirname(__filename)
 
 export default [
   {
     input: ['./src/index.ts'],
     output: [
-      {
-        file: 'dist/cjs/index.js',
-        format: 'cjs',
-        sourcemap: true,
-      },
       {
         file: 'dist/esm/index.js',
         format: 'esm',
@@ -25,6 +28,25 @@ export default [
     ],
     plugins: [
       del({ targets: 'dist/*' }),
+      alias({
+        entries: [
+          { find: '~', replacement: path.resolve(__dirname, 'src') },
+          {
+            find: '~/components',
+            replacement: path.resolve(__dirname, 'src/components'),
+          },
+          {
+            find: '~/hooks',
+            replacement: path.resolve(__dirname, 'src/hooks'),
+          },
+          {
+            find: '~/assets',
+            replacement: path.resolve(__dirname, 'src/assets'),
+          },
+        ],
+      }),
+      json(),
+      svgr(),
       peerDepsExternal(),
       nodeResolve(),
       commonjs(),
